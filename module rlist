@@ -1,0 +1,6 @@
+from random import randint
+
+
+def random_list(n):
+    k = [randint(0, 1) for i in range(n)]
+    return k
